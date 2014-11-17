@@ -12,6 +12,8 @@ of a Ruby on Rails app.
 2. Make a controller and route that renders a home page.
 3. On the home page, include JavaScript that calls
    [http://daretodiscover.net/wine](http://daretodiscover.net/wine).
+    - Hint: by default Rails gives us a `.coffee` file. Replace it
+      with a `.js` file and remove the coffeescript-style comments.
     - Hint: use one of jQuery's `$.ajax` or `$.getJSON()` methods.
     - Hint: what type of HTTP verb should you use?
 4. When the results are returned, make sure you can log them to the
