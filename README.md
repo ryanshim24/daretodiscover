@@ -32,7 +32,7 @@ of a Ruby on Rails app.
 7. Include the `handlebars_assets` gem in your Gemfile.
 
         # Gemfile
-        gem handlebars_assets
+        gem 'handlebars_assets'
 
 8.  Don't forget to run `bundle install`
 
