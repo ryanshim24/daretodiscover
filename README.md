@@ -38,8 +38,19 @@ of a Ruby on Rails app.
 
         bundle install
 
-9.  Add the following lines to  `application.js` so it includes the
-    Handlebars templates you're about to create.
+9.  Create a folder called `templates` in your
+    `app/assets/javascripts` folder.
+
+        # inside of app/assets/javascripts directory
+        mkdir templates
+
+10. Add a `.hbs` template in your newly created `templates` directory.
+
+        # inside of templates directory
+        touch wine.hbs
+
+11. Add the following lines to  `application.js` so it includes the
+    Handlebars template you've created.
 
         //= require handlebars.runtime
         //= require_tree ./templates
@@ -48,18 +59,6 @@ of a Ruby on Rails app.
     [handlebars_assets documentation](https://github.com/leshill/handlebars_assets#templates-directory)
     say anything specific about where `require_tree ./templates` needs
     to be included relative to `require_tree .`?
-
-
-10. Create a folder called `templates` in your
-    `app/assets/javascripts` folder.
-
-        # inside of app/assets/javascripts directory
-        mkdir templates
-
-11. Add a `.hbs` template in your newly created `templates` directory.
-
-        # inside of templates directory
-        touch wine.hbs
 
 12. Add some [Handlebars syntax](http://handlebarsjs.com/) to your
     `.hbs` file.
