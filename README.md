@@ -15,7 +15,6 @@ of a Ruby on Rails app.
     - Hint: by default Rails gives us a `.coffee` file. Replace it
       with a `.js` file and remove the coffeescript-style comments.
     - Hint: use one of jQuery's `$.ajax` or `$.getJSON()` methods.
-    - Hint: what type of HTTP verb should you use?
 4. When the results are returned, make sure you can log them to the
    `console`.
     - Ponder: what datatype is the result?
