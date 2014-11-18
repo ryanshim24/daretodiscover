@@ -66,7 +66,7 @@ of a Ruby on Rails app.
 13. In your original JavaScript file, access your new template though
 
         var template = HandlebarsTemplates["wine"];
-        var str = template(wineResultsJSON);
-        # render that str to the page
+        var html = template(wineResultsJSON);
+        // render that html to the page (w/ jQuery?)
 
 14. Fix bugs (and read docs) until it works.
