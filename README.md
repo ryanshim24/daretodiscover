@@ -61,7 +61,7 @@ of a Ruby on Rails app.
     to be included relative to `require_tree .`?
 
 12. Add some [Handlebars syntax](http://handlebarsjs.com/) to your
-    `.hbs` file.
+    `.hbs` file.  You may want to check out `{{#each}}`.
 
 13. In your original JavaScript file, access your new template though
 
